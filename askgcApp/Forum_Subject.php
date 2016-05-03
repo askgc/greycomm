@@ -1,3 +1,11 @@
+/**
+ Author:
+ Author:
+ 
+ Description: This php file allows a user to create a new post.
+ 
+ */
+
 <?php include("session.php"); include("nav_header.php");?>
 
 <?php 

@@ -1,4 +1,11 @@
-<?php 
+/**
+ AskGC
+ 
+ Description: This php file provides the back-end component to the Password Reset page. It checks if information entered by a user matches with that user's info in the data base, if not the appropriate messge is sent. If it does, the appropriate values are changed and an email is sent confirming the change.
+ 
+ */
+
+<?php
 
 include("dataBaseConnect.php");
 

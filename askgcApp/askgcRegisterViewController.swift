@@ -165,7 +165,7 @@ class ResigterScreenViewController: UIViewController, UIPickerViewDataSource,UIP
         
     }
     
-    
+    //Handles the registering of a new user
     @IBAction func getStarted(sender: AnyObject)
     {
         
@@ -209,7 +209,7 @@ class ResigterScreenViewController: UIViewController, UIPickerViewDataSource,UIP
                 let check = "Registration successful, check your email to activate your account."
                 
                
-
+                    //checks if the registration successfully hppend and redirects the user to the log in page
                     if(getdata!.isEqual(check))
                     {
                         let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle: nil)

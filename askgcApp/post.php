@@ -1,3 +1,10 @@
+/**
+ AskGC
+ 
+ Description: This php file connects to the database and using various queries get the information to display  about each post, including the title of the post, content of the post, the author, time, and date.
+ 
+ */
+
 <? include("dataBaseConnect.php");
 include("session.php");
 include("nav_header.php");

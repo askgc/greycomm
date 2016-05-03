@@ -2,8 +2,7 @@
 AskGC
  
  Description: This php script provides the interface for the initial interactions with the website. It links to the loginrun.php, change.php, forgot.php, and the signup.php scripts. Information entered in, is sent to the loginrun.php script to insert those values into the back end database. When then forgot password, sign nup, and change password button are pressed, the correspondig php script is executed.
- 
- Fields:
+
  */
 
 <!DOCTYPE html>

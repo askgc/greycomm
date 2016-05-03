@@ -1,3 +1,11 @@
+/**
+ AskGC
+ 
+ Description: This php file ends a user's session, effectively getting rid of information pertaining to the user.
+ 
+ 
+ */
+
 <?php
 
 include('session.php'); 

@@ -69,7 +69,7 @@ class askgcLoginViewController: UIViewController {
                         let check = "Login successful"
                         
                         
-                        
+                        //checks that the php script cofirms that a user has successfully logged in
                         if(getdata!.isEqual(check))
                         {
                             let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle: nil)

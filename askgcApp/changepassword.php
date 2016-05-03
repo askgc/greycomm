@@ -1,3 +1,9 @@
+/*
+ AskGC
+ 
+ Description: Each entered valuable is compared with the value of fields in the database. If there are no issues then the password field in the database is updated to reflect the users newly desired password. The user will recieve an email confirming the change.
+ */
+
 <?php
 include("dataBaseConnect.php");
 

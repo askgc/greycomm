@@ -18,7 +18,7 @@ class changePasswordScreenViewController: UIViewController{
     
     @IBOutlet weak var confirmnewpassword: UITextField!
     
-    
+    //Connects to the the changpassword.php file, post the entered values. The script handles the changes
     @IBAction func changePassword(sender: UIButton) {
         
         let myUrl = NSURL(string: "http://www.cs.loyola.edu/~sjean/askgcApp/changepassword.php")
@@ -49,6 +49,7 @@ class changePasswordScreenViewController: UIViewController{
             NSOperationQueue.mainQueue().addOperationWithBlock{
                 
                 
+                //text encho'd from the php file are displayed
                 let alertController = UIAlertController (title:"Change Password", message: getdata as! String, preferredStyle: UIAlertControllerStyle.Alert)
                 
                 alertController.addAction(UIAlertAction(title: "Dismiss", style: UIAlertActionStyle.Default, handler:
@@ -61,6 +62,7 @@ class changePasswordScreenViewController: UIViewController{
                         let check = "Your password was successfully changed."
                         
                         
+                        //check if the text echo's from the php script is the text signifying a password change has been made successfully
                         
                         if(getdata!.isEqual(check))
                         {

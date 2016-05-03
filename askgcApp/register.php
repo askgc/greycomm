@@ -1,3 +1,10 @@
+/**
+ AskGC
+ 
+ Description: This php file provides the back-end component to the Register page. A user will input the specified values. The database compares those values to data in the database and creates an account, if one with that information does not exist. A newly registered user will recieve an activation email with a cliackable link to activate their account.
+ 
+ */
+
 <?php
 
 include("dataBaseConnect.php");

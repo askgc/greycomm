@@ -3,7 +3,7 @@ AskGC
  
  Description: This php file allows for a certain information to be preserved throughout a user's interactions with the askgc interface
  
-
+*/
 <?php
 
 

@@ -1,3 +1,10 @@
+/*
+ AskGC
+ 
+ Description: This php file allows for the adding of a new Forum Category into in the database and for use in the askGC site interface.
+ 
+ */
+
 <?php include("session.php"); include('nav_header.php'); ?>
 
 <title> Forum Category </title> 
