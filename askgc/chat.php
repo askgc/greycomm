@@ -1,4 +1,12 @@
-<?php 
+/*
+ AskGC
+    
+ 
+ Description: This script is the template for the Chat component on the website. It is currently incomplete
+ 
+ */
+
+<?php
 	include("dataBaseConnect.php");
 	include("session.php");
 	include("nav_header.php");

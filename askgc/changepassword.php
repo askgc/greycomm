@@ -1,3 +1,8 @@
+/*
+AskGC
+ 
+ Description: Values entered in change.php are wrapped and sent to this script. Each field is compared with fields in the database. If there are no issues then the password field in the database is updated to reflect the users newly desired password.
+*/
 <?php
 include("dataBaseConnect.php");
 

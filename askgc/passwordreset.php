@@ -1,4 +1,11 @@
-<?php 
+/**
+AskGC
+ 
+ Description: This php file provides the back-end component to the Password Reset page. It checks if a user's email address exists in the data base, if not the appropriate messge is sent. If it does
+ 
+ */
+
+<?php
  
 include("dataBaseConnect.php");
 

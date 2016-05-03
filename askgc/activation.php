@@ -1,3 +1,10 @@
+/**
+ AskGC
+ 
+ Description: This php file provides the interface for which as user can attempt to activate their account. It links to the processactivation.php file which handles the back-end portion of handling account activations.
+ 
+ */
+
 <!DOCTYPE html>
 <html>
 <head>

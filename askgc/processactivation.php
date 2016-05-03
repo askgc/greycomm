@@ -1,3 +1,9 @@
+/**
+ AskGC
+ 
+ Description: This php file provides the back-end component to the Account Activation page. The status of a user is effectively selected from the database and it's value is changed to reflect that the account has been activated. The user is then sent an email confirming the activation.
+ */
+
 <?php
 
 include("dataBaseConnect.php");

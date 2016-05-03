@@ -1,4 +1,8 @@
-
+/**
+AskGC
+ 
+ Description: This php file provides the interface for the Forgot Password page. It links to the passwordreset.php file. Values entered on this page are passed to that file.
+*/
 
 <!DOCTYPE html>
 <html >

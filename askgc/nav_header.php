@@ -1,3 +1,11 @@
+/**
+AskGC
+ 
+ Description: This php file provides a standard header showing items for navigating aroung the website
+ 
+ Fields:
+ */
+
 <!doctype html>
 <html>
 <head>

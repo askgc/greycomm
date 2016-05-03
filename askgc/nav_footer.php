@@ -1,3 +1,11 @@
+/**
+AskGC
+ 
+ Description: This php file provides links to the various scoial media pages affiliated with GreyComm Studios
+ 
+
+ */
+
 <br><br>
 <div align="center">
      <ul>

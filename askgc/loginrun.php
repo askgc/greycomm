@@ -1,3 +1,9 @@
+/**
+AskGC
+ 
+ Description: This php script links login.php to the database. Values entered in login.php are wrapped and sent to this script. The script also checks whether or not a registered user has activated their account. If there are any errors, the appropriate message is displayed. For example, if the user has not activated their account, a message stating that is displayed. The user is brought to homepage.php if their credentials are correct and their account is activated
+ */
+
 <?php
 
 include("dataBaseConnect.php");

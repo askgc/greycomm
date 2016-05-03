@@ -1,3 +1,11 @@
+/**
+AskGC
+ 
+ Description: This php file provides the interface for the tutorials page. Currently these videos are "hard-coded" into this page.
+ 
+
+ */
+
 <?php include('session.php');
 include('nav_header.php'); ?>
 

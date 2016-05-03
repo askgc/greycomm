@@ -1,3 +1,10 @@
+/*
+ 
+  Description: This php file provides the interface for the FAQ page.
+ 
+ */
+
+
 <?php include("session.php");
 include("nav_header.php"); ?>
 

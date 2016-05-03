@@ -1,3 +1,10 @@
+/*
+AskGC
+ 
+ Description: This php script provides the interface for a user to change their password. Values entered in this form are sent to the changepassword.php file in order for interactino with the database to take place.
+
+ */
+
 
 <!DOCTYPE html>
 <html >

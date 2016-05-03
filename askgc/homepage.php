@@ -1,4 +1,12 @@
-<?php include('session.php'); 
+/**
+AskGC
+ 
+ Description: This php file provides the interface for the homepage, the screen after a user successfully logs in.
+ 
+ Fields:
+ */
+
+<?php include('session.php');
 include('nav_header.php');?>
 
 <title> ASKGC Homepage </title>

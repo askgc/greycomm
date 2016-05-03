@@ -1,3 +1,10 @@
+/**
+AskGC
+ 
+ Description: This php file provides the interface for the signup page.
+ 
+
+ */
 
 <!DOCTYPE html>
 <html>

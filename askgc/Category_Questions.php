@@ -1,4 +1,11 @@
-<?php include("session.php"); 
+/**
+AskGC
+ 
+ Description: Each Category has a corresponding identification number. This php file is responsible for querying for the correct Category based on that identification number. Each Category also has a number of subjects, which include a date, and id number, and a topic, that are retrieved.
+  
+ */
+
+<?php include("session.php");
 include('nav_header.php');
 include("dataBaseConnect.php"); ?> 
 

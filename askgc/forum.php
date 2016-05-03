@@ -1,4 +1,11 @@
-<?php include('session.php'); 
+/**
+AskGC
+ 
+ Description: This php file provides the interface for the forum page. Categories selected from the database populate the page.
+ 
+ */
+
+<?php include('session.php');
 include ("dataBaseConnect.php"); 
 include ("nav_header.php"); ?>
 
